@@ -2,7 +2,7 @@
     "name": "intaro/pinboard",
     "description": "Simple web monitoring system which aggregates and displays Pinba data.",
     "require": {
-        "php": ">=5.3.9",
+        "php": ">=7.3",
         "ext-PDO": "*",
         "ext-pdo_mysql": "*",
         "silex/silex": "~1.3",

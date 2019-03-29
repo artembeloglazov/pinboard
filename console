@@ -1,6 +1,7 @@
 #!/usr/bin/env php
 <?php
-
+pinba_timer_start(['gegi' => 'local']);
+pinba_server_name_set('gegi-pinba-console');
 //ini_set('display_errors', 'on');
 require __DIR__ . '/src/init.php';
 
@@ -23,3 +24,4 @@ $app->register(
 
 $app->boot();
 $console->run();
+pinba_timer_stop();
